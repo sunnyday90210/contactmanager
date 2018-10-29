@@ -1,5 +1,5 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
 const Header = props => {
   const { branding } = props;
@@ -12,7 +12,7 @@ const Header = props => {
         <div>
           <ul className="navbar-nav mr-auto">
             <li className="nav-item">
-              <a href="/" className="nav-link">
+              <a href="/" className="nav-link text-white">
                 Home
               </a>
             </li>
@@ -24,7 +24,7 @@ const Header = props => {
 };
 
 Header.defaultProps = {
-  branding: "My App"
+  branding: 'My App'
 };
 
 Header.propTypes = {
